@@ -14,9 +14,7 @@ jobs:
 
       - name: 23f2004618@ds.study.iitm.ac.in
         run: echo "Hello, world!"
-  cache-job:
-    runs-on: ubuntu-latest
-    steps:
+
       - name: Checkout code
         uses: actions/checkout@v4
 
